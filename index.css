@@ -25,6 +25,7 @@
 
 
 
+
 @media(max-width: 767px) {
   .navigation-links-nav {
     align-items: flex-start;
@@ -159,10 +160,14 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
+.home-navlink {
+  display: contents;
+}
 .home-image {
   width: 159px;
   height: 70px;
   object-fit: cover;
+  text-decoration: none;
 }
 .home-nav {
   display: flex;
@@ -173,7 +178,7 @@
   align-items: center;
   flex-direction: row;
 }
-.home-navlink {
+.home-navlink1 {
   text-decoration: none;
 }
 .home-text {
@@ -277,7 +282,7 @@
   display: flex;
   opacity: 0.7;
   position: relative;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: var(--dl-space-space-sixunits);
   padding-bottom: var(--dl-space-space-threeunits);
   background-size: cover;
@@ -294,6 +299,19 @@
   font-size: 50px;
   text-align: center;
   font-family: "Merriweather";
+}
+.home-link3 {
+  color: var(--dl-color-gray-black);
+  display: flex;
+  margin-top: var(--dl-space-space-sixunits);
+  animation-name: tada;
+  animation-delay: 1s;
+  text-decoration: none;
+  background-color: #ffffff;
+  animation-duration: 2000ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
 }
 .home-steps {
   width: 100%;
@@ -532,7 +550,7 @@
   font-weight: 500;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text25 {
+.home-text28 {
   color: var(--dl-color-gray-500);
   font-size: 0.75rem;
   text-align: center;
@@ -584,7 +602,7 @@
   width: 161px;
   height: 164px;
 }
-.home-text28 {
+.home-text31 {
   margin-top: var(--dl-space-space-oneandhalfunits);
 }
 .home-icon-group2 {
@@ -628,17 +646,17 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text32 {
+.home-text35 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-text33 {
+.home-text36 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text34 {
+.home-text37 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text35 {
+.home-text38 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-container22 {
@@ -649,17 +667,17 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text37 {
+.home-text40 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-text38 {
+.home-text41 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text39 {
+.home-text42 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text40 {
+.home-text43 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-container23 {
@@ -676,17 +694,17 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text42 {
+.home-text45 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-text43 {
+.home-text46 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text44 {
+.home-text47 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text45 {
+.home-text48 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-container25 {
@@ -696,23 +714,18 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text47 {
+.home-text50 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-text48 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.home-text49 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.home-text50 {
+.home-text51 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-text52 {
-  opacity: 0.7;
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-text53 {
+  margin-bottom: var(--dl-space-space-unit);
 }
 @media(max-width: 991px) {
   .home-icon04 {
@@ -759,7 +772,7 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .home-navlink {
+  .home-navlink1 {
     margin-bottom: var(--dl-space-space-unit);
   }
   .home-text {
@@ -937,7 +950,7 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-text25 {
+  .home-text28 {
     text-align: left;
   }
   .home-blog {
